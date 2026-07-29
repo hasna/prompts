@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "package": "@hasna/prompts",
+  "storage": {
+    "waiver": {
+      "reason": "Prompt data is intentionally stored in a user- or project-scoped local SQLite database so the CLI, MCP server, and REST API can operate offline.",
+      "paths": [
+        "~/.hasna/prompts/",
+        ".prompts/"
+      ]
+    }
+  }
+}
+
